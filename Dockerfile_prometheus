@@ -2,7 +2,7 @@ FROM prom/prometheus:latest
 
 WORKDIR /etc/prometheus
 
-COPY prometheus.yml /etc/prometheus/prometheus.yml
+COPY monitoring/prometheus.yml /etc/prometheus/prometheus.yml
 
 USER root
 
