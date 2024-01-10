@@ -1,1 +1,4 @@
-su
+FROM jaegertracing/all-in-one:latest
+
+EXPOSE 16686 14268 14250
+
