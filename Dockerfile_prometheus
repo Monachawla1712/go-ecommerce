@@ -4,7 +4,7 @@ WORKDIR /etc/prometheus
 
 COPY monitoring/prometheus.yml /etc/prometheus/prometheus.yml
 
-USER root
+#USER root
 
 ENV PROMETHEUS_HOST_PORT=$PROMETHEUS_HOST_PORT
 ENV PROMETHEUS_PORT=$PROMETHEUS_PORT
